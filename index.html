@@ -295,14 +295,32 @@
                                 placeholder="Project Details"></textarea>
                         </div>
                     </form>
-                    <button type="button" id="contactMeBtn" class="btn btn-success mt-3"
-                        onclick='alert("Coming Soon....")'>Contact Me</button>
+                    <button type="button" id="contactMeBtn" class="btn btn-success mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Contact Me
+                      </button>
+                 
 
                 </div>
 
             </div>
         </div>
     </section>
+    <div class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Contact Me</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Comming Soon.....</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     <!-- footer section-->
     <footer id="footer">
         <div class="container-fluid">
